@@ -54,6 +54,7 @@ function App() {
             <h3 id = "captionsSpace" style = {{position: 'fixed', width: '90%', textAlign: 'left', left: '0', fontSize: '12px', paddingLeft: '5%', paddingRight: '60%', overflowY: 'scroll', height: '40%', color: '#000000'}}>{transcript}</h3>
           ))}
         </ul>
+        
       {/* <Sample/> */}
     </div>
   );

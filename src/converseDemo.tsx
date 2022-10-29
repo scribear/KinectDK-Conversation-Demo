@@ -23,6 +23,8 @@ export const AzureConversation = () => {
           console.log(key, region);
           let speechTranslationConfig : speechSDK.SpeechTranslationConfig = speechSDK.SpeechTranslationConfig.fromSubscription(key, region);
           speechTranslationConfig.setProfanity(2);
+          // speechTranslationConfig.speechRecognitionLanguage = "en-US";
+          // speechTranslationConfig.addTargetLanguage("en-US");
 
           speechTranslationConfig.setProperty("DeviceGeometry", "Circular6+1");
           speechTranslationConfig.setProperty("SelectedGeometry", "Raw");

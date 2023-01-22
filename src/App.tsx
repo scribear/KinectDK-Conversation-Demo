@@ -1,6 +1,5 @@
 import React, {useEffect}  from 'react';
 import logo from './logo.svg';
-import { AzureRecog } from './azureRecog';
 
 import './App.css';
 import { AzureConversation } from './converseDemo';
